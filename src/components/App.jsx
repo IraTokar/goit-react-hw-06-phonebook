@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ContactForm from './ContactsForm/ContactsForm';
-// import ContactList from './ContactsList/ContactsList';
+import ContactList from './ContactsList/ContactsList';
 // import Filter from './Filter/Filter';
 
 
@@ -13,8 +13,8 @@ export const App = () => {
         <ContactForm />
        
         <h2>Contacts</h2>
-        {/* <Filter/>
-        <ContactList/> */}
+        {/* <Filter/> */}
+        <ContactList/>
       </div>
     )
   }

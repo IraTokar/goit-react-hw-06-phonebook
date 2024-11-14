@@ -4,7 +4,7 @@ import React from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { getVisibleContacts } from 'components/selectors';
-import { addContacts } from 'components/contactsSlice';
+import { addContacts } from '../contactsSlice';
 
 import { Form, Input, Button } from './ContactsForm.styled';
 
